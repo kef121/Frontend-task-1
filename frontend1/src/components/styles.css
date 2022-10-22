@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#profile_img {
+    padding: 1rem 0;
+    width: 7rem;
+}
+
+#twitter {
+    font-size: 1.2rem;
+}
+
+#slack {
+    display: none;
+}
+
+#share {
+    position: absolute;
+    margin-left: 20rem;
+}
