@@ -8,18 +8,19 @@
 
 section {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: white;
     font-family: 'Inter', sans-serif;
 }
 
 #profile_img {
     padding: 1rem 0;
-    width: 7rem;
+    width: 8rem;
 }
 
 #twitter {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: #101828;
 }
 
 #slack {
@@ -29,4 +30,42 @@ section {
 #share {
     position: absolute;
     margin-left: 20rem;
+}
+
+#links button  {
+    width: 55rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    height: 3rem;
+    background-color: #EAECF0;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+}
+
+
+
+#links button:hover {
+    background-color: #D0D5DD;
+}
+
+#links button a {
+    text-decoration: none;
+    color: #101828;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#socials img {
+    padding: 0 1.5rem;
 }
