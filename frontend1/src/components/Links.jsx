@@ -11,7 +11,7 @@ const Links = () => {
             <a id="twitter__link" href='https://twitter.com/keffy21'>Twitter Link</a>
             <a id="btn__zuri" href='https://training.zuri.team/'>Zuri Team</a>
             <a id="books"  href='https://books.zuri.team'>Zuri Books</a>
-            <a id="books__python" href='https://books.zuri.team/python-for-beginners?ref_id=Favour-Okeke'>Python Books</a>
+            <a id="books__python" href='https://books.zuri.team/python-for-beginners?ref_id=Favour_'>Python Books</a>
             <a id="pitch" href='https://background.zuri.team'>Background Check for Coders</a>
             <a id="book__design" href='https://books.zuri.team/design-rules'>Design Books</a>
         </div>

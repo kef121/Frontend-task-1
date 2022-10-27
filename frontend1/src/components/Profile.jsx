@@ -12,7 +12,7 @@ const Profile = () => {
         <img id="sharemo" alt="share" src={Sharemo}></img>
         <img id="profile__img" alt="Profile_img" src={Profileimg}></img>
         <h6 id="twitter">Keffy21</h6>
-        <h6 id="slack">Favour Okeke</h6>
+        <h6 id="slack">Favour_</h6>
     </section>
   )
 }
