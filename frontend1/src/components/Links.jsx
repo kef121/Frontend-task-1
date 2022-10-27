@@ -7,15 +7,17 @@ const Links = () => {
   return (
     <section id="links">
         
-        <button id="twitter__link"><a href='https://twitter.com/keffy21'>Twitter Link</a></button>
-        <button id="btn__zuri"><a href='https://training.zuri.team/'>Zuri Team</a></button>
-        <button id="books"><a href='https://books.zuri.team'>Zuri Books</a></button>
-        <button id="books__python"><a href='https://books.zuri.team/'>Python Books</a></button>
-        <button id="pitch"><a href='https://background.zuri.team'>Background Check for Coders</a></button>
-        <button id="book__design"><a href='https://books.zuri.team/design-rules'>Design Books</a></button>
+        <div id="links-section">
+            <a id="twitter__link" href='https://twitter.com/keffy21'>Twitter Link</a>
+            <a id="btn__zuri" href='https://training.zuri.team/'>Zuri Team</a>
+            <a id="books"  href='https://books.zuri.team'>Zuri Books</a>
+            <a id="books__python" href='https://books.zuri.team/python-for-beginners?ref_id=Favour-Okeke'>Python Books</a>
+            <a id="pitch" href='https://background.zuri.team'>Background Check for Coders</a>
+            <a id="book__design" href='https://books.zuri.team/design-rules'>Design Books</a>
+        </div>
 
         <div id='socials'>
-            <a href="#" ><img id="slack-icon" alt="slack" src={Slack}></img></a>
+            <a href="Favour-Okeke" ><img id="slack-icon" alt="slack" src={Slack}></img></a>
             <a href='https://github.com/kef121'><img id="github-icon" alt="github" src={Github}></img></a>
         </div>
 
