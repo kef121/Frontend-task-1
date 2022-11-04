@@ -23,7 +23,7 @@ const Contact = () => {
                 <label for="email">Email</label><br/>
                 <input type="email" id="email"  placeholder='yourname@email.com'/><br/>
                 <label for="message">Message</label><br/>
-                <textarea id="message"  placeholder='Send me a message and I&#39;ll reply you as soon as possible...' rows="4" cols="70"></textarea><br/>
+                <textarea id="message"  placeholder='Send me a message and I&#39;ll reply you as soon as possible...' rows="4" cols="50"></textarea><br/>
                 <input type="checkbox" id="checkbox"/>
                 <label for="validation" id="validation" >You agree to providing your data to Favour who may contact you.</label>
             </form>
